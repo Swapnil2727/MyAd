@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/business" android:duration="2000"></item>
+    <item android:drawable="@drawable/announcement" android:duration="2000"></item>
+    <item android:drawable="@drawable/computers" android:duration="2000"></item>
+    <item android:drawable="@drawable/travel" android:duration="2000"></item>
+    <item android:drawable="@drawable/marriage" android:duration="2000"></item>
+    <item android:drawable="@drawable/astrology" android:duration="2000"></item>
+    <item android:drawable="@drawable/lostfound" android:duration="2000"></item>
+    <item android:drawable="@drawable/namechange" android:duration="2000"></item>
+    <item android:drawable="@drawable/property" android:duration="2000"></item>
+    <item android:drawable="@drawable/personal" android:duration="2000"></item>
+
+</animation-list>

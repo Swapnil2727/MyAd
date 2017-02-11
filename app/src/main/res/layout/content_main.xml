@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/viewBg"
+    android:background="#f7f6f6"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="info.androidhive.cardview.MainActivity"
     tools:showIn="@layout/activity_main">
