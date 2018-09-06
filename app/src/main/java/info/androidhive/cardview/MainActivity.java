@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
                     scrollRange = appBarLayout.getTotalScrollRange();
                 }
                 if (scrollRange + verticalOffset == 0) {
-                    collapsingToolbar.setTitle(getString(R.string.app_name));
+                    collapsingToolbar.setTitle("");
                     isShow = true;
                 } else if (isShow) {
                     collapsingToolbar.setTitle(" ");
@@ -117,11 +117,11 @@ public class MainActivity extends AppCompatActivity {
      */
     private void prepareAlbums() {
         int[] covers = new int[]{
-                R.drawable.matrimonial,
+
                 R.drawable.property,
                 R.drawable.recruitment,
                 R.drawable.business,
-                R.drawable.personal,
+                R.drawable.health,
                 R.drawable.vehicles,
                 R.drawable.namechange,
                 R.drawable.lostfound,
@@ -140,58 +140,56 @@ public class MainActivity extends AppCompatActivity {
                 R.drawable.entertainment,
                 R.drawable.education};
 
-        Album a = new Album("Matrimonial", covers[0]);
+
+       Album a = new Album("Property", covers[0]);
         albumList.add(a);
 
-        a = new Album("Property", covers[1]);
+        a = new Album("Recruitment", covers[1]);
         albumList.add(a);
 
-        a = new Album("Recruitment", covers[2]);
+        a = new Album("Business", covers[2]);
         albumList.add(a);
 
-        a = new Album("Business", covers[3]);
+        a = new Album("Health & Beauty", covers[3]);
         albumList.add(a);
 
-        a = new Album("Personal", covers[4]);
+        a = new Album("Vehicles", covers[4]);
         albumList.add(a);
 
-        a = new Album("Vehicles", covers[5]);
+        a = new Album("Change Of Address", covers[5]);
         albumList.add(a);
 
-        a = new Album("Change of Name", covers[6]);
+        a = new Album("Lost & Found", covers[6]);
         albumList.add(a);
 
-        a = new Album("Lost & Found", covers[7]);
+        a = new Album("Announcement", covers[7]);
         albumList.add(a);
 
-        a = new Album("Announcement", covers[8]);
+        a = new Album("Travel", covers[8]);
         albumList.add(a);
-
-        a = new Album("Travel", covers[9]);
+        a = new Album("To Rent", covers[9]);
         albumList.add(a);
-        a = new Album("To Rent", covers[10]);
+        a = new Album("Public Notice", covers[10]);
         albumList.add(a);
-        a = new Album("Public Notice", covers[11]);
+        a = new Album("Situation Wanted", covers[11]);
         albumList.add(a);
-        a = new Album("Situation Wanted", covers[12]);
+        a = new Album("Services", covers[12]);
         albumList.add(a);
-        a = new Album("Services", covers[13]);
+        a = new Album("Retail", covers[13]);
         albumList.add(a);
-        a = new Album("Retail", covers[14]);
+        a = new Album("Wedding Arrangements", covers[14]);
         albumList.add(a);
-        a = new Album("Wedding Arrangements", covers[15]);
+        a = new Album("Obituary", covers[15]);
         albumList.add(a);
-        a = new Album("Obituary", covers[16]);
+        a = new Album("Computers", covers[16]);
         albumList.add(a);
-        a = new Album("Computers", covers[17]);
+        a = new Album("Marriage Bureau", covers[17]);
         albumList.add(a);
-        a = new Album("Marriage Bureau", covers[18]);
+        a = new Album("Astrology", covers[18]);
         albumList.add(a);
-        a = new Album("Astrology", covers[19]);
+        a = new Album("Entertainment", covers[19]);
         albumList.add(a);
-        a = new Album("Entertainment", covers[20]);
-        albumList.add(a);
-        a = new Album("Education", covers[21]);
+        a = new Album("Education", covers[20]);
         albumList.add(a);
 
 

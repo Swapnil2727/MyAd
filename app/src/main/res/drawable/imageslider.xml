@@ -10,6 +10,6 @@
     <item android:drawable="@drawable/lostfound" android:duration="2000"></item>
     <item android:drawable="@drawable/namechange" android:duration="2000"></item>
     <item android:drawable="@drawable/property" android:duration="2000"></item>
-    <item android:drawable="@drawable/personal" android:duration="2000"></item>
+    <item android:drawable="@drawable/health" android:duration="2000"></item>
 
 </animation-list>
